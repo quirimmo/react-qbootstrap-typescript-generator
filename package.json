@@ -2,16 +2,20 @@
   "name": "react-qbootstrap-typescript-generator",
   "version": "1.0.0",
   "description": "A node global module for generating a bootstrap project of react with typescript",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "dosomethingawesome": "./bin/react-qbootstrap-typescript-generator.js"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/quirimmo/react-qbootstrap-typescript-generator.git"
   },
   "author": "Quirino Lo Russo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/quirimmo/react-qbootstrap-typescript-generator/issues"
   },
