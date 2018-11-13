@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/quirimmo/react-qbootstrap-typescript-generator/issues"
   },
-  "homepage": "https://github.com/quirimmo/react-qbootstrap-typescript-generator#readme"
+  "homepage": "https://github.com/quirimmo/react-qbootstrap-typescript-generator#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
 }
