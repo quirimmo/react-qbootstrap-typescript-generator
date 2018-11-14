@@ -4,6 +4,7 @@
   "description": "A node global module for generating a bootstrap project of react with typescript",
   "main": "./lib/index.js",
   "scripts": {
+    "bin": "node ./bin/react-qbootstrap-typescript-generator.js",
     "main": "node ./lib/main.js",
     "test": "./node_modules/.bin/jest --watch",
     "test-single-run": "./node_modules/.bin/jest",
