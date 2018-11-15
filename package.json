@@ -11,7 +11,7 @@
     "test-coverage": "npm run test-single-run -- --coverage"
   },
   "bin": {
-    "dosomethingawesome": "./bin/react-qbootstrap-typescript-generator.js"
+    "generate-react-typescript": "./bin/react-qbootstrap-typescript-generator.js"
   },
   "preferGlobal": true,
   "repository": {
